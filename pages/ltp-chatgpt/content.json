@@ -4,11 +4,7183 @@
       "id": "p1",
       "type": "paragraph",
       "props": {
-        "textColor": "default",
         "backgroundColor": "default",
+        "textColor": "default",
         "textAlignment": "left"
       },
-      "content": [],
+      "content": [
+        {
+          "type": "text",
+          "text": "建议第二次课发两个任务包：内存方向 6 道核心题，进程／线程／信号方向 3 道核心题，各配 1 道扩展题。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 每个赛队选一个方向。这个安排按你最新的要求执行，替代旧大纲中内存 H2、进程 H3 分两次布置的顺序。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "6b0620b3-8250-4842-bc89-62b2fa0b9fd8",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "我已经实际编写了适配补丁，完成了内核编译，并用官方比赛盘中的原始 LTP ELF 做了修前、修后对照。最终推荐如下：",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "725ac9a9-6df6-4b5a-a60d-28683c671af7",
+      "type": "table",
+      "props": {
+        "textColor": "default"
+      },
+      "content": {
+        "type": "tableContent",
+        "columnWidths": [
+          null,
+          null,
+          null
+        ],
+        "headerRows": 1,
+        "rows": [
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "方向",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "核心题",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "扩展题",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "内存管理",
+                    "styles": {
+                      "bold": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "mmap06",
+                    "styles": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "、",
+                    "styles": {}
+                  },
+                  {
+                    "type": "text",
+                    "text": "mprotect01",
+                    "styles": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "、",
+                    "styles": {}
+                  },
+                  {
+                    "type": "text",
+                    "text": "madvise02",
+                    "styles": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "、",
+                    "styles": {}
+                  },
+                  {
+                    "type": "text",
+                    "text": "madvise03",
+                    "styles": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "、",
+                    "styles": {}
+                  },
+                  {
+                    "type": "text",
+                    "text": "mincore02",
+                    "styles": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "、",
+                    "styles": {}
+                  },
+                  {
+                    "type": "text",
+                    "text": "mincore03",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "madvise05",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "进程／线程／信号",
+                    "styles": {
+                      "bold": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "tgkill02",
+                    "styles": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "、",
+                    "styles": {}
+                  },
+                  {
+                    "type": "text",
+                    "text": "rt_sigqueueinfo01",
+                    "styles": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "、",
+                    "styles": {}
+                  },
+                  {
+                    "type": "text",
+                    "text": "prctl03",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "clone08",
+                    "styles": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "，完整验收限定为 RISC-V 两套 libc、LoongArch-glibc",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "children": []
+    },
+    {
+      "id": "4f4a0d4c-59ed-40fa-8a9b-b29fedd80868",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "实际试写规模是：内存方向 238 行增删，进程方向 242 行增删，均已包含各自扩展题。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 两组都能复用当前内核已有机制，改动控制在数百行量级。进程方向题数较少，是因为 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "prctl03",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 要贯穿父子关系、退出、过继和回收，理解成本明显高于一个入口错误码修复。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "88731e03-2ee1-4f59-b579-129931edddee",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "一、这次实际验证到了什么程度",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "00936d36-7cbc-4639-9e59-63ae86744952",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "分析固定在以下版本，避免仓库后续变化影响结论：",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "1610a3c2-6783-4f4d-8032-0052af16ceef",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "内核：",
+          "styles": {}
+        },
+        {
+          "type": "link",
+          "href": "https://github.com/xingmin1/blossom-new/tree/49513b2ba80dbf1c457222b0f8fd24fe123a6654",
+          "content": [
+            {
+              "type": "text",
+              "text": "blossom-new，",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "49513b2ba80d",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "33dfa221-dde0-447f-a342-b475a3a72aab",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "测试源码：",
+          "styles": {}
+        },
+        {
+          "type": "link",
+          "href": "https://github.com/oscomp/testsuits-for-oskernel/tree/8b58dd16d26d30f7c74d48d5832d870d3051b703",
+          "content": [
+            {
+              "type": "text",
+              "text": "testsuits-for-oskernel，",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "pre-2025 / 8b58dd16d26d",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "f2802af9-039b-446b-9032-82ea9437abad",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "运行二进制：",
+          "styles": {}
+        },
+        {
+          "type": "link",
+          "href": "https://github.com/oscomp/testsuits-for-oskernel/releases/tag/pre-20250615",
+          "content": [
+            {
+              "type": "text",
+              "text": "官方 ",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "pre-20250615",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "link",
+          "href": "https://github.com/oscomp/testsuits-for-oskernel/releases/tag/pre-20250615",
+          "content": [
+            {
+              "type": "text",
+              "text": " 比赛盘",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "。该发布标签与上述测试提交的整个 LTP 源码子树一致。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "f30123e5-3b49-422b-b4d3-e07c5767f70a",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "我没有重新编译或修改这些 LTP 的断言。所选候选和回归共 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "42 个程序，在双架构、双 libc 下的 168 个 ELF，均核对了工作盘与官方原盘 SHA256 相同",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。工作盘增加了启动脚本、加载器链接和常规挂载环境。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "65a01681-6ba5-4055-a2a4-c001a638320d",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "实际验证包括：",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "851a72dd-37ce-482e-ae97-3979eb0636ff",
+      "type": "table",
+      "props": {
+        "textColor": "default"
+      },
+      "content": {
+        "type": "tableContent",
+        "columnWidths": [
+          null,
+          null
+        ],
+        "headerRows": 1,
+        "rows": [
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "验证项",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "已完成范围",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "合并补丁编译",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "RISC-V、LoongArch 的 release 内核",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "原题运行",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "两种架构 × musl/glibc，分别运行 ",
+                    "styles": {}
+                  },
+                  {
+                    "type": "text",
+                    "text": "1 核、4 核",
+                    "styles": {
+                      "bold": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "相邻回归",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "公共基线中原本通过的 ",
+                    "styles": {}
+                  },
+                  {
+                    "type": "text",
+                    "text": "30 道回归题",
+                    "styles": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "，修后保持通过",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "方向独立验证",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "分别只应用“公共前置＋内存补丁”或“公共前置＋进程补丁”，在 ",
+                    "styles": {}
+                  },
+                  {
+                    "type": "text",
+                    "text": "RISC-V、4 核、两套 libc",
+                    "styles": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 下运行",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "额外机制检查",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "实时信号配额回收、不合并，以及嵌套 subreaper、fork/exec 标志行为",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "children": []
+    },
+    {
+      "id": "ebf8af99-7ea9-411b-9790-a9bec33f7634",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "九道核心题的修前、修后结果如下。表中“修前”指",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "原提交加公共运行前置",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "，公共前置的原因在后面解释。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "2d5fa274-1a35-4e37-96eb-5067ffcaee02",
+      "type": "table",
+      "props": {
+        "textColor": "default"
+      },
+      "content": {
+        "type": "tableContent",
+        "columnWidths": [
+          null,
+          null,
+          null
+        ],
+        "headerRows": 1,
+        "rows": [
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "核心题",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "修前实际结果",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "修后实际结果",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "mmap06",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "7 PASS、1 FAIL",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "8 PASS",
+                    "styles": {
+                      "bold": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "mprotect01",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "前两项 PASS，第三项 setup TBROK",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "3 PASS",
+                    "styles": {
+                      "bold": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "madvise02",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "12 FAIL、1 TCONF",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "12 PASS、1 TCONF",
+                    "styles": {
+                      "bold": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "madvise03",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "TBROK，",
+                    "styles": {}
+                  },
+                  {
+                    "type": "text",
+                    "text": "madvise",
+                    "styles": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 返回 ENOSYS",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "1 PASS",
+                    "styles": {
+                      "bold": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "mincore02",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "2 FAIL",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "2 PASS",
+                    "styles": {
+                      "bold": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "mincore03",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "TBROK，",
+                    "styles": {}
+                  },
+                  {
+                    "type": "text",
+                    "text": "mincore",
+                    "styles": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 返回 ENOSYS",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "2 PASS",
+                    "styles": {
+                      "bold": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "tgkill02",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "1 FAIL",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "1 PASS",
+                    "styles": {
+                      "bold": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "rt_sigqueueinfo01",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "1 FAIL，错误返回 ESRCH",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "2 PASS",
+                    "styles": {
+                      "bold": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "prctl03",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "1 FAIL，返回 ENOSYS",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "6 PASS",
+                    "styles": {
+                      "bold": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "children": []
+    },
+    {
+      "id": "be39a21c-8662-489e-b7b8-f26c47bdbefa",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "以上修后核心结果在四种架构／libc 组合、1 核和 4 核下均成立。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "madvise02",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 的一项 TCONF 是该版本原题主动跳过的旧检查，不能算成第十三项通过。完整记录在包内的 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "evidence/results.csv",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 和 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "logs/",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 中。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "c9e1319d-918c-41b9-8e63-959160c664ee",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "二、内存方向：推荐这六题，具体怎样修改",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "86ed9f99-1b3f-43da-94f0-933823ff410d",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "这组适合按三个阶段推进：",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "入口与设备映射 → 页面丢弃 → 驻留状态查询",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。六道题共用若干实现，不需要分别写六套机制。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "84987a30-b68d-41bf-a153-ec7568110a9c",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "1. ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "mmap06",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "：修正错误检查顺序，适合做入门题",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "7ac4d34e-9daa-42a7-9c2a-4c75a2dc8062",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "link",
+          "href": "https://github.com/oscomp/testsuits-for-oskernel/blob/8b58dd16d26d30f7c74d48d5832d870d3051b703/ltp-full-20240524/testcases/kernel/syscalls/mmap/mmap06.c",
+          "content": [
+            {
+              "type": "text",
+              "text": "原题源码",
+              "styles": {}
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "45d4cf2c-77e8-4c28-825d-015734f4deae",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "为什么选：",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 缺口非常明确，改动很小，可以先让学生完成一次“读原题—定位失败—修改—回归”的闭环。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "2bbc0f71-5e8f-44e0-82bc-20fc4c8d16ca",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "原题使用一个有效的 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "O_WRONLY",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 文件描述符，进行八组映射检查。其中六组应返回 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "EACCES",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "；长度为零的请求应返回 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "EINVAL",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。当前入口先检查文件打开模式，因此零长度那一组提前返回了 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "EACCES",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "3c712896-0de2-42e1-ab18-f0d70d2fd35e",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "实际修改位置：",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "os/src/syscall/memory.rs::mmap",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "e0cd7f0c-545f-4afd-8b6c-554d919232fe",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "修改顺序是：",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "58dcc834-6d11-40b7-b756-e08c5fbd7c77",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "匿名映射直接检查零长度。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "cb1bbe3f-9781-44b4-9458-9eb204327d23",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "文件映射先验证 fd 是否有效。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "0b0bb376-83bb-4aa0-b4cd-7dbd0310a337",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "对有效 fd 检查零长度，再检查文件打开模式和映射权限。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "339d9a5e-2b5e-4e5d-9a43-c94d37db5d7c",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "这里有一个值得课堂讲清楚的细节：",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "不能把所有零长度检查都无条件移到入口最前面。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 无效 fd 和零长度同时出现时，",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "mmap08",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 仍要求 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "EBADF",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。我实际核对了 Linux 的行为，并将 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "mmap08",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 放进回归，补丁没有破坏它。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "00e339a1-5ba1-4466-bb7d-420f96b3ba87",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "工作定位：小型修复。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 不需要重写 VMA、页表或缺页处理。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "0c1d20e8-f198-4367-b65a-c4286e8153c7",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "2. ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "mprotect01",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "：真正缺的是 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "/dev/zero",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 映射前置",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "0781bb81-e73b-4eef-be7c-86447ef9cbeb",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "link",
+          "href": "https://github.com/oscomp/testsuits-for-oskernel/blob/8b58dd16d26d30f7c74d48d5832d870d3051b703/ltp-full-20240524/testcases/kernel/syscalls/mprotect/mprotect01.c",
+          "content": [
+            {
+              "type": "text",
+              "text": "原题源码",
+              "styles": {}
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "38dd62ff-049b-45b7-be32-099fdd257b08",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "为什么选：",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 能让学生理解文件描述符权限、设备映射和 VMA 最大权限之间的关系，改动也比较集中。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "e3a3664d-7add-480c-9324-4a5c28229afd",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "这道题前两项原本就能通过。第三项需要先用只读 fd 建立 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "/dev/zero",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 的共享映射，再尝试通过 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "mprotect",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 加上写权限，预期得到 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "EACCES",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "69651160-b20f-4cba-974d-941f05ff0d84",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "当前 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "/dev/zero",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 不提供普通文件的 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "mapping_inode()",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "，所以它在 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "mmap setup 阶段就返回 ",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "ENODEV",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "，还没有执行到真正的 mprotect 断言。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "7ec8fca9-b2e9-4bde-a63a-b99e81c3c242",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "实际修改涉及三个位置：",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "4c33935f-b8e0-4d27-9150-85ea9be4db90",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "os/src/fs/file.rs",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "：给文件接口增加默认关闭的 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "maps_anonymous()",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 能力。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b375e5c0-5b7b-4782-9a87-53e2c07214e7",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "os/src/fs/devfs.rs",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "：由 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "ZeroFile",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 开启这一能力。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "8a9ef97e-ebf4-49e8-abde-3558ebf93527",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "os/src/syscall/memory.rs::mmap",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "：对 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "/dev/zero",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 选择已有的私有／共享匿名后备。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "059ab0ec-1c3a-4f22-98b4-fd3892613c8f",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "随后必须保留一个约束：",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "共享映射的最大写权限仍由 fd 打开模式决定。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 如果 fd 是 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "O_RDONLY",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "，后续 mprotect 就不能把它升级为可写。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "ef646943-f02d-4692-9d29-b05c34b94831",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "这题的主要价值是区分：",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "af350bff-9b1a-4d5a-80cd-3840167948b0",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "“当前映射是只读”；",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "fcef0670-f53f-4504-8c2c-02dec0f6fae9",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "“这个映射最多只允许只读”。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "74e7ddfc-70a3-4fce-8b8c-38d012d61d02",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "第二种限制必须贯穿后续权限修改。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "6fd70f63-e005-421f-bab3-55c04cf03da5",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "3. ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "madvise02",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "：补齐入口与错误语义，和下一题一起验收",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "259edf46-c28d-4c46-b461-34ebf9a5ee85",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "link",
+          "href": "https://github.com/oscomp/testsuits-for-oskernel/blob/8b58dd16d26d30f7c74d48d5832d870d3051b703/ltp-full-20240524/testcases/kernel/syscalls/madvise/madvise02.c",
+          "content": [
+            {
+              "type": "text",
+              "text": "原题源码",
+              "styles": {}
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "4ea9bedd-4d0c-45f2-b1bd-d6f723991a0c",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "为什么选：",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 地址对齐、长度溢出、映射空洞、锁页约束都能复用现有地址空间结构，适合训练范围操作的边界检查。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "965e1c97-d7f2-4b8d-8979-e58b15792c90",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "当前真正使用的 syscall 分发器没有接入 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "233：madvise",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。仓库里旧文件中的成功 stub 不在活跃调用链上，不能据此认为已经实现。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "39879feb-7115-460e-870d-eded032e6549",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "实际修改：",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "2aa21522-0e06-43f5-9105-64e622fd1a9d",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "在 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "os/src/syscall.rs",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 注册 syscall 233。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "1b220099-d486-4717-a6a0-da4c1c8e07df",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "在 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "syscall/memory.rs::madvise",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 解析 advice，检查对齐、长度和溢出。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "f76e5382-f353-4f4a-85c2-e11932a2a8ba",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "在 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "mm/space.rs",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 增加 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Mm::advise_mapping",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "，检查映射覆盖情况及锁页约束。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "35d70b01-063a-4d4d-a6f8-ba1c83d6d5be",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "对 NORMAL、RANDOM、SEQUENTIAL 接受其访问提示；WILLNEED 做尽力预故障；DONTNEED 使用下一题的真实丢页路径。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "d03fabd3-7d33-4d95-a10d-f71026bf6f5a",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "本次实现范围是 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "advice 0–4",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。高级 advice 未实现时明确返回 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "EINVAL",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "9bb38892-9183-458e-ab64-7a5343e31204",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "需要特别注意原题的统计方式：它有一个“匿名映射 WILLNEED 应返回 EBADF”的旧表项，被原题过滤逻辑主动跳过，所以结果是 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "12 PASS＋1 TCONF",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。另外，FREE、WIPEONFORK 的某些负向断言通过，只说明请求被正确拒绝，不能据此宣称实现了这些功能。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "8ecaed3a-5fb8-4a45-9a5b-1c6504dd6edb",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "建议把 ",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "madvise02",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 和 ",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "madvise03",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 作为一个整体验收。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 这样学生既要处理错误路径，也必须完成实际数据语义。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "cb97defb-b3dd-4426-9a01-1d12b0ef06de",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "4. ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "madvise03",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "：内存方向的主要机制题",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "0e9daab8-77a4-4e75-bda7-844a9faf35ee",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "link",
+          "href": "https://github.com/oscomp/testsuits-for-oskernel/blob/8b58dd16d26d30f7c74d48d5832d870d3051b703/ltp-full-20240524/testcases/kernel/syscalls/madvise/madvise03.c",
+          "content": [
+            {
+              "type": "text",
+              "text": "原题源码",
+              "styles": {}
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "d5270508-9dc9-499d-b3bc-f20e60bf8b59",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "原题建立 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "8192 字节私有匿名映射",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "，全部写成 1，调用 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "MADV_DONTNEED",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 后再逐字节读取，要求全部为零。这对应 DONTNEED 对私有匿名页的核心语义：保留地址映射，后续访问重新获得零填充页面。",
+          "styles": {}
+        },
+        {
+          "type": "link",
+          "href": "https://man7.org/linux/man-pages/man2/madvise.2.html?utm_source=chatgpt.com",
+          "content": [
+            {
+              "type": "text",
+              "text": "Linux manual page",
+              "styles": {}
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "2eb615d0-f49f-4484-b05d-56a96e0943d2",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "为什么选：",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 一道题能串起 VMA、页表、驻留页、TLB 和后续缺页，而且当前内核已经具备这些基础设施。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "260adcc8-8de9-4007-83ea-a6d0e5057956",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "实际修改的关键步骤：",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "3619a7d5-a691-448a-9c58-8274aaa1b15d",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "保留 VMA 的地址范围、权限和后备属性。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a4033038-b571-45aa-8e68-3fbffc2e2baf",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "移除目标范围内的 PTE 和驻留页记录。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "c0fac137-3bb0-476f-8169-6f03b8bdd624",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "复用现有的 TLB 同步与页面回收路径。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "ac0c08e9-8c60-46b9-b101-492e39bcea9e",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "下次访问通过正常缺页流程重新建立零页。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "778be089-ce27-41f4-a01a-6df50453e4d9",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "对相交 VMA 更换对象身份，使正在锁外准备的旧缺页／COW 提交重新校验。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "dec57a8f-0d5d-41b8-87b4-16ef0f1619d8",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "第五步是试写中专门处理的并发点。当前缺页处理会在部分阶段释放映射锁；如果只删页、不使旧提交失效，已经准备好的旧页面可能在 DONTNEED 之后重新装回。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a80edfec-3982-4422-a193-520a974cf36d",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "主要代码在：",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "621b1420-64c7-446f-b793-fbdde7402991",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "mm/space.rs::advise_mapping",
+          "styles": {
+            "code": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "662471aa-8507-49be-b224-7c252d2087a1",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "mm/vma.rs::renew_identity",
+          "styles": {
+            "code": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "933efb10-1724-49f3-b4e1-2344609f8b70",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "对共享后备，则保留共享数据，只撤销本进程相应映射，避免影响其他进程。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "52bd24db-d69a-4461-89b2-95a4e76fffc4",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "工作定位：中等，是这组的主要实现任务。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 当前补丁复用了已有解映射和缺页机制，没有另建一套页面管理框架。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "6bd2925f-0878-4b1e-857d-5d5d8abcdb3b",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "5. ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "mincore02",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "：实现真实的驻留查询",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "0c96da9e-ffd3-4e5b-b3d8-c3f3c2420f63",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "link",
+          "href": "https://github.com/oscomp/testsuits-for-oskernel/blob/8b58dd16d26d30f7c74d48d5832d870d3051b703/ltp-full-20240524/testcases/kernel/syscalls/mincore/mincore02.c",
+          "content": [
+            {
+              "type": "text",
+              "text": "原题源码",
+              "styles": {}
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "96e0f29e-cad7-4dd6-bfa9-8311120559a1",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "原题写入四页文件，建立共享映射并 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "mlock",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "，随后要求 mincore 成功，四个驻留位均为 1。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "36c7706d-e6a8-4779-af2a-19d64bc31267",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "为什么选：",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 当前文件缺页、页缓存和锁页已经存在，新增重点是查询接口。mincore 返回的是页面驻留快照，并不意味着页面未来一直驻留。",
+          "styles": {}
+        },
+        {
+          "type": "link",
+          "href": "https://man7.org/linux/man-pages/man2/mincore.2.html?utm_source=chatgpt.com",
+          "content": [
+            {
+              "type": "text",
+              "text": "Linux manual page",
+              "styles": {}
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "75619a3f-7717-45dd-9df8-8c1b3ddac840",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "实际修改：",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b95e28e7-9ec8-48aa-ac26-5722fd1c50cd",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "注册 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "232：mincore",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "938334a7-7849-4edd-9dc1-9d8815225b3d",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "增加 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Mm::resident_status",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "，查询：",
+          "styles": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "387874b4-e816-45f8-9ece-a4b91d3125eb",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "当前地址空间的驻留页记录；",
+              "styles": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "fd206ea7-bbf6-457f-8f2f-88fdeb64d67d",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "共享匿名后备中已经分配的页；",
+              "styles": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "6be687e6-9e62-41b5-a6ea-2ddb3f7aea38",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "文件 inode 页缓存中已经成功初始化的页。",
+              "styles": {}
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "c5c1041c-7ac2-4032-9c57-b16c1e94e856",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "使用固定小缓冲分批 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "copyout",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "fcdcdb43-77fb-4937-918f-78c28dfa162a",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "释放映射读锁后再写用户输出缓冲，避免输出缓冲缺页造成锁递归。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "313f32c0-f981-4b8a-ae04-6fc80fe8b3a5",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "文件页不能只看本进程有没有 PTE：同一个文件页可能已经在页缓存里，而本进程还没有装上本地 PTE。反过来，也不能把“文件页 I/O 已结束但失败”当成有效驻留数据，所以补丁增加了 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "FolioRef::is_uptodate()",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "1f7588b3-0882-4183-82c4-430824659a48",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "6. ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "mincore03",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "：用相反的断言检验上一题",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "69d6057d-1d4d-4aae-a4df-323a0ee593d6",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "link",
+          "href": "https://github.com/oscomp/testsuits-for-oskernel/blob/8b58dd16d26d30f7c74d48d5832d870d3051b703/ltp-full-20240524/testcases/kernel/syscalls/mincore/mincore03.c",
+          "content": [
+            {
+              "type": "text",
+              "text": "原题源码",
+              "styles": {}
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a07736c3-5158-4ec8-b1ec-d670c2e92fc9",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "原题检查三页匿名映射：",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "dbb697db-5ba3-4df5-92c1-cc9112326f14",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "尚未触碰时，驻留页数必须为 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "0",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "375e12f2-e541-4923-8da7-83e1e6535af6",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "mlock",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 触发实际页面建立后，驻留页数必须为 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "3",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "ae51d664-1c08-4204-a5eb-ed52a54d7cd2",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "为什么选：",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 几乎完全复用 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "mincore02",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 的实现，却能有效排除“只要有 VMA 就把驻留位全部置 1”的错误做法。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "8bfecb9a-9b52-402f-990e-981fa446a29b",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "代码上，私有匿名页没有驻留记录时返回零；真实页面建立后返回一。共享匿名页通过 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "SharedAnon::contains_page",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 查询已有后备，查询过程不分配被查询的页面。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "69115fff-dc27-4427-99ca-870c7f2ea2f1",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "这两题放在一起，能够要求学生清楚解释：",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "VMA 存在、PTE 存在、后备页已在内存中，是不同状态。",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b701b8fa-ef54-46a8-befd-158cb6cb3acf",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "内存扩展：",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "madvise05",
+          "styles": {
+            "code": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "9657851c-f6ef-49fa-8f7d-2f9dfd5666a3",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "link",
+          "href": "https://github.com/oscomp/testsuits-for-oskernel/blob/8b58dd16d26d30f7c74d48d5832d870d3051b703/ltp-full-20240524/testcases/kernel/syscalls/madvise/madvise05.c",
+          "content": [
+            {
+              "type": "text",
+              "text": "原题源码",
+              "styles": {}
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "200cc7ec-b431-41ee-a34e-e587a6b94cfa",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "这题先建立带 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "MAP_POPULATE",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 的 32 MiB 匿名映射，再改成 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "PROT_NONE",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "，随后执行 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "MADV_WILLNEED",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "596f20a1-b40b-499b-afeb-efc7b049ca40",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "我实际补了：",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "83a6d3e4-2da4-4435-8de2-d55270664512",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "MAP_POPULATE",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "、",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "MAP_NONBLOCK",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 标志处理；",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "4ff3a3fa-4140-42c8-8a8a-a74a9651d7bc",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "通过已有 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "populate_range",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 做真实的尽力预故障；",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "8a6a56ea-8118-4619-b13b-93c0c45c0f75",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "预故障失败不撤销已经成功建立的映射；",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "cc0bff30-c149-4f45-83d9-ef8a3db1c48b",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "不突破 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "PROT_NONE",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 权限。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "12c43a65-f37a-4d2d-9fa7-2dee82e17a38",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "修后四组合、1 核和 4 核均为 1 PASS。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 它适合核心完成后追加。原题曾用于 Linux THP 缺陷回归，但完成当前测试并不要求给这个内核建立整个 THP 子系统。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "75c36e69-cfd4-4305-8a87-cff61200c48b",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "三、进程／线程／信号方向：三道核心题怎样修改",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b9617454-5b67-466a-a02c-d3eb29b2f1ac",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "建议顺序是：",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "tgkill02",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " → ",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "rt_sigqueueinfo01",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " → ",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "prctl03",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。前两题是接入已有机制，第三题承担主要生命周期工作。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "13e1026a-17d5-4e2b-8668-de4c61b6f887",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "1. ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "tgkill02",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "：实时信号走错了排队路径",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "5cc0ec07-6ac5-4a33-8025-3c9e4336d486",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "link",
+          "href": "https://github.com/oscomp/testsuits-for-oskernel/blob/8b58dd16d26d30f7c74d48d5832d870d3051b703/ltp-full-20240524/testcases/kernel/syscalls/tgkill/tgkill02.c",
+          "content": [
+            {
+              "type": "text",
+              "text": "原题源码",
+              "styles": {}
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "9cd4a029-e082-48db-9d61-acb20e1d2610",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "原题在线程中阻塞 SIGRTMIN，将 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "RLIMIT_SIGPENDING",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 设为零，再向该线程发送实时信号，要求返回 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "EAGAIN",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。实时信号配额耗尽是 tgkill 的 EAGAIN 条件之一。",
+          "styles": {}
+        },
+        {
+          "type": "link",
+          "href": "https://man7.org/linux/man-pages/man2/tgkill.2.html?utm_source=chatgpt.com",
+          "content": [
+            {
+              "type": "text",
+              "text": "Linux manual page",
+              "styles": {}
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "00c14e67-5ce9-4cce-9854-a5c554afdab8",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "为什么选：",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 当前内核已经有实时信号队列、配额计费和回收机制，问题集中在入口接错路径。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "37d5fe6f-a25e-4ed8-8242-6b8fd6db0c4e",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "基线 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "TaskGraph::send_thread_signal",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 一直使用 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "queued = false",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。这样实时信号也进入了免配额的内联槽，而且同号多次发送还可能合并。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "69ef2dab-740b-4290-87f9-92f7cfbb4576",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "实际修改：",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "61dbbe20-5236-4743-af36-9a307959a2e5",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "在 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "os/src/task/process.rs",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 按内核实时信号边界选择用户排队路径。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "4675472c-cb03-402c-91ac-f7f58f2ea886",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "复用已有节点分配、目标用户配额计费、锁内身份复查和出队退费。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "184b9c73-68cf-4aeb-a9b6-5e0e5e65e03e",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "实时信号节点分配失败映射为 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "QueueFull/EAGAIN",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "3de914b7-0a37-41bf-ba2a-73e92e7664fc",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "普通信号保留原有递送机制。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "c2387528-06a7-4083-9f22-d8e669fc64cc",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "不能只针对“限额正好是零”加判断。为核实这一点，我另外写了机制探针，实际验证：",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a36c54d6-a487-4415-882c-0b6ad8335640",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "零配额时，普通信号仍可递送；",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b36aae6d-fd24-40af-b55e-fb3b5e079b90",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "限额为 2 时，两条同号实时信号成功，第三条 EAGAIN；",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a5cbdb9c-c06b-4ce2-afbf-a33c61013dc5",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "消费一条后可以再次发送；",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "95326358-1878-4b05-aa58-6a0f0dbf68cd",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "成功发送的三个实例都能消费，没有合并。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "811e9760-2568-4ca5-883b-36e3bdb51ef3",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "工作定位：小型机制接入题，很适合这一组的第一题。",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "1050e22b-6a65-44cc-8fa7-e971458814fd",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "2. ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "rt_sigqueueinfo01",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "：非组首 TID 应能找到所属线程组",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "29ef4e38-519c-49b1-8a32-25f3b1b33dbc",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "link",
+          "href": "https://github.com/oscomp/testsuits-for-oskernel/blob/8b58dd16d26d30f7c74d48d5832d870d3051b703/ltp-full-20240524/testcases/kernel/syscalls/rt_sigqueueinfo/rt_sigqueueinfo01.c",
+          "content": [
+            {
+              "type": "text",
+              "text": "原题源码",
+              "styles": {}
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "41511096-01a8-4b1c-b14a-f7d85f824b2d",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "原题创建 pthread，取得该线程的 TID，然后调用 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "rt_sigqueueinfo",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "，发送带数值 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "777",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 的 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "SIGUSR1",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "，检查信号和载荷。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b87ade4f-55d0-4f87-afd5-40db66e37241",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "四种组合的基线都错误返回 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "ESRCH",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。原因是原来的 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "group_target()",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 只查看槽位中的 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "process",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "，而非组首线程所在槽位只有 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "thread",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "ec3569d9-0116-40a2-981d-2e99df8cdf3e",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "实际修改：",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "f9bd9a02-0f5a-4ea1-ba2b-addcbf0a30ac",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "在任务图锁内，支持由进程号或现存 TID 找到所属 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "ThreadGroup",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "aff8854f-95ff-4e5d-b3c5-48f7eaa470aa",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "继续向",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "线程组共享信号队列",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "递送。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "d4a71754-91b9-4efb-84bb-1bce9707f78c",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "保留权限检查，并在实际递送时复查组对象身份，防止编号复用造成误投。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "80a688b2-60ae-4226-8508-142f6bddfa0b",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "让正 pid 的 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "kill",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 也复用一致的定位规则，负 pid 的进程组逻辑保持原样。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "56eadf4d-4dd2-424c-af40-6c44366a4c7f",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "我核对了 Linux v6.6 的对应路径：",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "kill_pid_info",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 先按 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "PIDTYPE_PID",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 找任务，再按 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "PIDTYPE_TGID",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 向其线程组发送。",
+          "styles": {}
+        },
+        {
+          "type": "link",
+          "href": "https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux.git/%2B/refs/tags/v6.6/kernel/signal.c?utm_source=chatgpt.com",
+          "content": [
+            {
+              "type": "text",
+              "text": "Git at Google",
+              "styles": {}
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "734fe96b-8f34-4772-a0e8-eb3d438f2ced",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "这题最需要讲清的边界是：用 TID 定位所属组，不等于定向递送给该线程。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 原题要求收到正确的信号和数据，并没有要求处理函数一定由传入 TID 对应的线程执行。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "d0ef20b5-2f6a-4402-b789-58eac8fb7d11",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "这部分实际增量为 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "新增 20 行、删除 4 行",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。最终四组合、1 核和 4 核均为 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "2 PASS",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b9b8ca3d-3356-4750-9acb-a804e37f7ee5",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "3. ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "prctl03",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "：实现真正的 subreaper 收养逻辑",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "ac20b804-a3dc-4459-b888-e0298b4766e4",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "link",
+          "href": "https://github.com/oscomp/testsuits-for-oskernel/blob/8b58dd16d26d30f7c74d48d5832d870d3051b703/ltp-full-20240524/testcases/kernel/syscalls/prctl/prctl03.c",
+          "content": [
+            {
+              "type": "text",
+              "text": "原题源码",
+              "styles": {}
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "1ad73a0e-5f8d-4221-89c7-8146ecc33046",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "为什么选：",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 它覆盖了一条完整而边界明确的进程生命周期，适合作为这组主任务。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "c4823db9-2b64-4822-a8ad-19dad7117d64",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "原题设置祖先进程为 subreaper，让中间子进程退出，检查孙进程是否被过继、祖先能否 wait、能否收到 SIGCHLD，以及 fork 子进程是否清除该标志。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a415b136-c5d8-4b27-865e-c2097e81db4e",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Linux 的语义是：孤儿由最近的仍存活 subreaper 祖先收养；标志不由 fork 继承，但跨 exec 保留。",
+          "styles": {}
+        },
+        {
+          "type": "link",
+          "href": "https://man7.org/linux/man-pages/man2/PR_SET_CHILD_SUBREAPER.2const.html?utm_source=chatgpt.com",
+          "content": [
+            {
+              "type": "text",
+              "text": "Linux manual page",
+              "styles": {}
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "3505274d-23e7-4a73-8ec3-69f9d73ee060",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "实际修改分四部分：",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "bbb193bb-bebd-4368-974f-eedadebc8d93",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "系统调用入口：",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "在 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "syscall/task.rs",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 接入 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "PR_SET_CHILD_SUBREAPER",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "、",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "PR_GET_CHILD_SUBREAPER",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "d1fabc5a-31ea-43e9-a036-585bfa701bde",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "状态归属：",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "在进程级 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "ProcessEntry",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 保存标志，新进程初始化为 false，exec 保留原进程状态。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "fb9750b2-b8ad-4f28-8cca-62030c8edc7a",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "收养者选择：",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "新增 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "TaskGraph::child_reaper",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "，沿真实父链查找最近、仍存活且未进入组退出的 subreaper；找不到时回到已有 init／内核根处理。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "2d142de9-7e13-4266-964e-03431d094012",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "真实过继：",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "在 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "process/lifecycle.rs::reparent_children",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 修改真实 parent，复用退出通知、waiter 唤醒、僵尸通知和回收机制。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "5b5e3f2b-450c-4ec6-b7a2-130665cc5183",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "还有一个需要保护的行为：",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "孤儿进程组判断放在过继之后。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 如果新父进程仍保留同一会话中的连接，不能提前把进程组误判为孤儿并发送 HUP／CONT。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "d620126f-df31-4442-958e-65822a0f7a74",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "本题实际结果为 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "6 PASS",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。额外机制探针还验证了两层 subreaper 时选择最近祖先，以及 fork 清标志、exec 保留标志。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "38e8f582-0c61-4784-9acf-41237f53f46b",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "工作定位：中等，是进程方向的主要实现任务。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 只增加一个布尔值或者伪造 getppid，无法完成它涉及的 wait 权限和回收关系。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "fec73bf2-49cc-4508-a6e7-7b7a8f46a400",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "进程扩展：",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "clone08",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "，必须明确平台限制",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "6e29aad6-03a7-4987-8f46-6df91675dc5d",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "link",
+          "href": "https://github.com/oscomp/testsuits-for-oskernel/blob/8b58dd16d26d30f7c74d48d5832d870d3051b703/ltp-full-20240524/testcases/kernel/syscalls/clone/clone08.c",
+          "content": [
+            {
+              "type": "text",
+              "text": "原题源码",
+              "styles": {}
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "5670eafc-62c3-4bd7-bbec-25a1d32fd2b9",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "本轮真正新增的是 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "CLONE_PARENT",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "：",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "594c51bf-fff8-46e0-b14c-4cd563a7c19a",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "接受该标志；",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "0eb3178e-362c-4399-b82a-66725ebb1e80",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "在发布新进程时，持任务图锁决定真实父进程和退出信号；",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "e1083a8b-c192-440a-8a58-63f2b2f94382",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "资源仍从实际创建者继承；",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "bc0b3513-8692-4126-82d0-229e03d65a3e",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "处理目标父进程正在退出的情况，避免新子进程挂到即将回收的父节点下。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "dce06965-2f65-46c8-a948-c3987af8f81f",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "原题中的其他 TID 写回、线程生命周期检查，很多原本已有支持。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "e2bdd206-34c3-4b16-87e1-ffa031656aba",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "实际结果：",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "6f70ac43-8d67-4005-a5ec-d80ce8a85483",
+      "type": "table",
+      "props": {
+        "textColor": "default"
+      },
+      "content": {
+        "type": "tableContent",
+        "columnWidths": [
+          null,
+          null,
+          null
+        ],
+        "headerRows": 1,
+        "rows": [
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "环境",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "修前",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "修后",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "RV-musl、RV-glibc、LA-glibc",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "4 PASS＋1 BROK",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "5 PASS",
+                    "styles": {
+                      "bold": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "LA-musl",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "2 PASS＋2 BROK",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "3 PASS＋1 BROK",
+                    "styles": {
+                      "bold": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "children": []
+    },
+    {
+      "id": "8bde6e31-2aad-4beb-9265-33ce5f3f7969",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "LA-musl 剩余失败的原因已经查到原盘 libc 的反汇编：公开 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "clone()",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 包装器遇到包含 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "CLONE_THREAD",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 等标志的请求，会在用户态直接返回 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "EINVAL",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "，没有进入 syscall 220。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "f762cf30-29ec-4b8b-94c9-9f2f48e3479f",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "因此，",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "这题适合做注明架构／libc 范围的扩展题，不能作为“四种组合必须完整通过”的统一核心题。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 包内保留了原 libc 哈希、关键指令和修前修后日志。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "aed7db6d-b07a-45d6-9068-e446949a762d",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "四、两个公共前置应由助教统一提供",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "3ac877c7-9871-4645-8c58-2dde5fc0dc6a",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "实际运行时，最先遇到的是 LTP 框架前置缺失：",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "c86a11fc-e191-4c74-8f06-a4d47c9a084d",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "/proc/meminfo",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 缺少框架需要的字段，多个程序尚未进入测试正文就 TBROK。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "8b244c49-ff14-4427-808b-b4476f8fdac2",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "LTP 创建临时目录时调用 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "chown",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "，当前相关系统调用未接通，返回 ENOSYS。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "46c81cae-83f8-498d-9984-fcb4e577fa32",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "我把这两项单独做成了 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "common-final.patch",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "，共 115 行增删",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "：",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "27d14f04-974a-43b6-a4ab-00e5f2861052",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "MemAvailable",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 保守地使用真实空闲可分配页数；当前无交换后备，",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "SwapTotal/SwapFree",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 为零。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "e46c34c3-3340-4ec3-8586-b128c6024b9e",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "实现真实的 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "fchownat/fchown",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "，复用现有元数据提交，处理 uid/gid、",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "-1",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 保留、权限、ctime、setid、只读、符号链接等基本语义。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "1f8e28fc-0fff-46fb-8d81-6ef6bb68cfa8",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "这里没有为 LTP 的某一组参数专门返回成功。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "f6fcab89-42a5-4805-8c31-ddb4cca31661",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "建议助教先提供这一公共基线，然后学生只做自己选择的方向。",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 否则两组都会先陷入同一套 procfs／文件所有权问题，作业范围会偏离本次子系统主题。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "c14b354e-2ed7-444f-bd41-752d1c45de48",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "最终补丁统计如下：",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b1f7d1cd-3dbb-4618-9b19-45c2633a90a5",
+      "type": "table",
+      "props": {
+        "textColor": "default"
+      },
+      "content": {
+        "type": "tableContent",
+        "columnWidths": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "headerRows": 1,
+        "rows": [
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "补丁",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "新增",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "删除",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "增删合计",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "公共前置",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "110",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "5",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "115",
+                    "styles": {
+                      "bold": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "内存方向，含 ",
+                    "styles": {}
+                  },
+                  {
+                    "type": "text",
+                    "text": "madvise05",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "217",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "21",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "238",
+                    "styles": {
+                      "bold": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "进程方向，含 ",
+                    "styles": {}
+                  },
+                  {
+                    "type": "text",
+                    "text": "clone08",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "194",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "48",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "242",
+                    "styles": {
+                      "bold": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "全部合并",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "521",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "74",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "595",
+                    "styles": {
+                      "bold": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "children": []
+    },
+    {
+      "id": "363fb0d6-676b-437b-931a-aab5b897413f",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "这些数字包含注释、空行及少量格式调整；表示这次实际试作规模，不是要求学生必须写出完全相同的行数。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "27e3b089-e0a7-469e-98cd-f3873e9e2b3e",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "五、哪些旧候选不建议这次布置（这是 GPT 说的，不是我说的，下面这些当然也可以做）",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "dff47ce5-236b-4ba2-bbb0-04e977cd5b6c",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "我没有把所有尚未实现的题都估成“上千行”。下面的排除依据，是当前依赖范围以及本轮是否已经完成可信的小实现。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "fce2ae4d-92c3-472a-9061-e28ab34bc723",
+      "type": "table",
+      "props": {
+        "textColor": "default"
+      },
+      "content": {
+        "type": "tableContent",
+        "columnWidths": [
+          null,
+          null
+        ],
+        "headerRows": 1,
+        "rows": [
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "候选",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "本轮暂不选的原因",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "mremap01/02",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "当前活跃 syscall 216 缺失。只做 02 的未对齐错误很小，但不能形成有效重映射；01 需要实际扩展和必要的移动，涉及 VMA、页表、后备偏移及失败处理。本轮没有完成试写，无法给出小改动保证。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "madvise01",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "一次探测多种 advice；未实现功能返回 EINVAL、被记为 TCONF，不等于完成相应功能。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "madvise06/09",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "引入 swap、cgroup、内存压力回收和统计观测；09 的延迟 FREE 语义也不能用立即 DONTNEED 清零代替。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "madvise10",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "需要 WIPEONFORK／KEEPONFORK 的 VMA 标志与继承语义，适合后续专题。它没有 cgroup／hugetlb 前置，排除原因是另一组尚未试写的机制。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "mincore01",
+                    "styles": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "、",
+                    "styles": {}
+                  },
+                  {
+                    "type": "text",
+                    "text": "munmap03",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "setup 分别依赖当前不支持的 ",
+                    "styles": {}
+                  },
+                  {
+                    "type": "text",
+                    "text": "RLIMIT_AS",
+                    "styles": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "、",
+                    "styles": {}
+                  },
+                  {
+                    "type": "text",
+                    "text": "RLIMIT_DATA",
+                    "styles": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "，会扩展到资源限制实现。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "mmap04",
+                    "styles": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "、",
+                    "styles": {}
+                  },
+                  {
+                    "type": "text",
+                    "text": "mlock03",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "依赖 ",
+                    "styles": {}
+                  },
+                  {
+                    "type": "text",
+                    "text": "/proc/self/maps",
+                    "styles": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "，容易把任务转为 procfs 映射视图适配。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "clone02",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "原题部分共享检查存在返回值判定问题，另有 FS 子项可能掩盖错误，不适合作为主验收依据。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "rt_sigtimedwait01",
+                    "styles": {
+                      "code": true
+                    }
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              },
+              {
+                "type": "tableCell",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "该比赛构建明确排除了对应目录，四套官方盘都没有这个 ELF；不能直接列为拿现有比赛盘就能做的题。",
+                    "styles": {}
+                  }
+                ],
+                "props": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "backgroundColor": "default",
+                  "textColor": "default",
+                  "textAlignment": "left"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "children": []
+    },
+    {
+      "id": "05012f08-6e10-40fe-a066-464ef3e3b62d",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "详细源码定位及纠错过程在包内的独立审计文件中。尤其不建议沿用旧候选表，直接把“源码里有这个题”当成“官方盘里有、当前环境能跑、工作量也小”。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "8633139b-56f0-4a7b-9a2e-7848e2a9ca55",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "六、发给学生时，保留这些回归和解释要求",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b39454c5-94a9-4e15-b422-79a29b078639",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "核心任务之外，可以要求自动跑一组较小的回归：",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "e9e1bb18-4328-4a73-9056-ee71dba4ecd7",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "内存：",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "mmap02",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "、",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "mmap05",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "、",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "mmap08",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "、",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "mprotect05",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "、",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "munmap01",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "、",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "munmap02",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "5231fac0-3f40-4aee-ab02-767533c3be37",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "进程：",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "clone01",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "、",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "waitid01",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "、",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "waitid04",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "、",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "waitid07",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "、",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "waitid08",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "、",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "tgkill01",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "、",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "tkill01",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "、",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "rt_sigprocmask01",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "0b42eedb-6328-4d99-b228-c4066193f368",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "这些是保护已有能力，不应计作学生本轮新增适配。完整试验还保留了更宽的回归记录，其中 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "tkill02",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 因缺少 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "/proc/sys/kernel/pid_max",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 在 setup 中断，已单列，没有算通过。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "fd067de6-6483-42dc-a1f7-5cfe424a6c70",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "课堂可以先用 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "mmap06",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " 演示一次完整闭环，再让各队二选一。每队提交两三页增量报告、补丁和原始日志，重点解释两类问题：",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "eb00c3f7-d1b5-4af3-afa9-18edc3520a37",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "内存队：",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "为什么 DONTNEED 后 VMA 仍在，旧缺页不能把旧数据装回，mincore 查询又为什么不会主动分配页面。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "d7d6532d-494f-478e-8e28-8c71bc9be5aa",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "进程队：",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "为什么 TID 可以定位线程组却不等于线程定向递送，谁有权 wait，以及退出时为什么选择最近的收养祖先。",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "fcfed4ac-f92c-4f3c-82a2-228db103f358",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "这样发题，学生做的是当前内核上可解释、可验证的真实增量；参考实现已经把两个方向都控制在数百行规模，并且分别验证了不依赖另一方向补丁也能完成。",
+          "styles": {}
+        }
+      ],
       "children": []
     }
   ]
