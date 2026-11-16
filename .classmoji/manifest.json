@@ -1,0 +1,26 @@
+{
+  "repositories": {
+    "npucore": {
+      "pages": [],
+      "slides": [],
+      "assignments": {
+        "test": {
+          "pages": [],
+          "slides": []
+        }
+      }
+    }
+  },
+  "general": {
+    "pages": [
+      "ltp-chatgpt"
+    ],
+    "slides": [
+      "1",
+      "2",
+      "3",
+      "blossom-ppt-http-10-70-250-195-12344-intro-1",
+      "blossomppt-http-10-70-250-195-12344-subsystems-single-html"
+    ]
+  }
+}
