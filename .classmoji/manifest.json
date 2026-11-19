@@ -5,21 +5,20 @@
       "slides": [],
       "assignments": {
         "test": {
-          "pages": [],
+          "pages": [
+            "ltp-chatgpt"
+          ],
           "slides": []
         }
       }
     }
   },
   "general": {
-    "pages": [
-      "ltp-chatgpt"
-    ],
+    "pages": [],
     "slides": [
       "1",
       "2",
       "3",
-      "blossom-ppt-http-10-70-250-195-12344-intro-1",
       "blossomppt-http-10-70-250-195-12344-subsystems-single-html"
     ]
   }
