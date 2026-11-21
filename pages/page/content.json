@@ -13828,6 +13828,17 @@
         }
       ],
       "children": []
+    },
+    {
+      "id": "830d695c-6017-4b24-9625-e6a011ba1d7f",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
     }
   ]
 }
